@@ -28,8 +28,37 @@
     margin-bottom: 2em;
 }
 
-h1{
+#navId{
 
-   margin-top: 3em;
+   background-color: skyblue;
+
+}
+
+.footer{
+
+    
+    color:mintcream;
+    background-color: black;
+    text-align: center;
+    position: -ms-page;
+    height: 30px;
+    margin-bottom: 0em;
+    width: 100%;
+}
+
+.mapaGoogle{
+
+    margin-top: 3em; 
+    margin-bottom: 0em;
+    
+
+}
+
+.titulo{
+
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 6em;
 
 }

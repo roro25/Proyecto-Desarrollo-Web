@@ -2,6 +2,38 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script>$.get("index.html", function (data) {
+    <body>
+      
+      <div class="titulo">
+        <h1>Contacta con Nosotros</h1>
+        <h3>llámanos por telefono o enviando un correo.</h3>
+      </div>
+        <div class="container">
+         <div class="row">
+            <div class="col-lg-4" style="text-align: center; ">
+            <img src="img/empresa.png" alt="" ><br>
+            Direccion: Av. Matta 3567.
+            </div>
+
+            <div class="col-lg-4" style="text-align: center; ">
+            <img src="img/telefono.png" alt=""><br>
+            Telefono: +56 9 78861063
+            </div>
+
+            <div class="col-lg-4" style="text-align: center; ">
+            <img src="img/correo.png" alt=""><br>
+            E-mail: ro.delgado@duocuc.cl
+            </div>
+         </div>
+        </div>   
+        <div class="mapaGoogle">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9157.256880943445!2d-70.73069124055627!3d-33.35937924278539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1617470598686!5m2!1ses-419!2scl" width="1270" height="550" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer">
+                <p class="medium">&copy; Todos los derechos reservados :: Empresa RD :: Chile 2021</p>
+        </div>
+    </body>
+
+<script>$.get("main.html", function (data) {
 $("#navId").replaceWith(data);
 });</script>
